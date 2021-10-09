@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T06:07:13.738Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="KmDolePm_EXYbVRgYoh0" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T07:53:16.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="22pLAQ8tq2ODM4wd0Phu" version="15.5.0" type="github">
   <diagram id="A2gb6ovF-wNH_0Qie81E" name="Page-1">
     <mxGraphModel dx="2310" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3Y7rejbO8p2I4icDClnW-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="90" y="230" width="410" height="360" as="geometry" />
+          <mxGeometry x="90" y="230" width="410" height="340" as="geometry" />
         </mxCell>
         <mxCell id="3Y7rejbO8p2I4icDClnW-2" value="LocalStorage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="265" y="240" width="60" height="30" as="geometry" />
@@ -75,7 +75,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4B0oqPqM5RAnGnxoc8f9-39" value="Admin" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="20" width="280" height="120" as="geometry" />
+          <mxGeometry x="10" y="50" width="280" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4B0oqPqM5RAnGnxoc8f9-40" value="+ Quản lý sản phẩm: thêm xóa sửa&#xa;+ Quản lý người dùng: thêm xóa sửa&#xa;+ Quản lý đơn hàng đặt: xác nhận tình trạng&#xa;+ Thống kê kinh doanh: doanh thu" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="4B0oqPqM5RAnGnxoc8f9-39">
           <mxGeometry y="30" width="280" height="90" as="geometry" />
@@ -86,7 +86,7 @@
         <mxCell id="4B0oqPqM5RAnGnxoc8f9-46" value="Card.id == account.id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="4B0oqPqM5RAnGnxoc8f9-45">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4B0oqPqM5RAnGnxoc8f9-47" value="ProductList" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="4B0oqPqM5RAnGnxoc8f9-45">
+        <mxCell id="4B0oqPqM5RAnGnxoc8f9-47" value="ProductList thêm số lượng" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="4B0oqPqM5RAnGnxoc8f9-45">
           <mxGeometry y="56" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4B0oqPqM5RAnGnxoc8f9-58" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="4B0oqPqM5RAnGnxoc8f9-47">
@@ -118,6 +118,12 @@
         </mxCell>
         <mxCell id="4B0oqPqM5RAnGnxoc8f9-62" value="New order" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="4B0oqPqM5RAnGnxoc8f9-60">
           <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4B0oqPqM5RAnGnxoc8f9-65" value="User" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="50" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4B0oqPqM5RAnGnxoc8f9-66" value="+ Thêm sản phẩm vào giỏ hàng&#xa;+ Xóa sản phẩm khỏi giỏ hàng&#xa;+ Đặt hàng&#xa;+ Xem trạng thái đặt hàng&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="4B0oqPqM5RAnGnxoc8f9-65">
+          <mxGeometry y="30" width="280" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
