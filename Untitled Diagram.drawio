@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T07:53:16.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="22pLAQ8tq2ODM4wd0Phu" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T15:47:19.616Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="xYEF6aVi7MBV_R-gpX_f" version="15.5.0" type="github">
   <diagram id="A2gb6ovF-wNH_0Qie81E" name="Page-1">
     <mxGraphModel dx="2310" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3Y7rejbO8p2I4icDClnW-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="90" y="230" width="410" height="340" as="geometry" />
+          <mxGeometry x="90" y="230" width="410" height="470" as="geometry" />
         </mxCell>
         <mxCell id="3Y7rejbO8p2I4icDClnW-2" value="LocalStorage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="265" y="240" width="60" height="30" as="geometry" />
@@ -124,6 +124,18 @@
         </mxCell>
         <mxCell id="4B0oqPqM5RAnGnxoc8f9-66" value="+ Thêm sản phẩm vào giỏ hàng&#xa;+ Xóa sản phẩm khỏi giỏ hàng&#xa;+ Đặt hàng&#xa;+ Xem trạng thái đặt hàng&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="4B0oqPqM5RAnGnxoc8f9-65">
           <mxGeometry y="30" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4B0oqPqM5RAnGnxoc8f9-68" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="200" y="570" width="160" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="4B0oqPqM5RAnGnxoc8f9-69" value="Item 1" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="4B0oqPqM5RAnGnxoc8f9-68">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4B0oqPqM5RAnGnxoc8f9-70" value="Item 2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="4B0oqPqM5RAnGnxoc8f9-68">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4B0oqPqM5RAnGnxoc8f9-71" value="Item 3" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="4B0oqPqM5RAnGnxoc8f9-68">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
