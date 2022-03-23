@@ -9,6 +9,16 @@ huykhaduy/huykhaduy is a ✨ special ✨ repository because its `README.md` (thi
 You can click the Preview link to take a look at your changes.
 --->
 
-<div style="background-color:blue">
-  <div>Hello</div>
-</div>
+<!doctype html>
+<html>
+	<head>
+		<title>
+			My Website
+		</title>
+	</head>
+	<body>
+		<div style ="background-color: blue">
+      Hello
+    </div>
+	</body>
+</html>
