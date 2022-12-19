@@ -1,4 +1,5 @@
 - 👋 Hi, I’m @huykhaduy (Huỳnh Khánh Duy)
+- 🥇 Keep everything simple
 - 🧑‍🎓 I’m currently learning Java, Python, JS as a backend developer
 - 📫 You can contact me by email: huykhaduydev@gmail.com
 
