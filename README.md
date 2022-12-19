@@ -1,18 +1,4 @@
-- 👋 Hi, I’m @huykhaduy
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-huykhaduy/huykhaduy is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-
-<html>
-	<body>
-		<div style ="background-color: blue">
-      Hello
-    </div>
-	</body>
-</html>
+- 👋 Hi, I’m @huykhaduy (Huỳnh Khánh Duy)
+- 🧑‍🎓 I’m currently learning Java, Python, JS as a backend developer
+- 📫 You can contact me by email: huykhaduydev@gmail.com
+<img src="https://gamek.mediacdn.vn/133514250583805952/2022/4/11/bang3-1649649261907472551226.jpg">
